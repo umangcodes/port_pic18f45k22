@@ -70,7 +70,7 @@ port_setup(A,4,2)
             LATB |= 0;
         }
         break;
-    case "D:
+    case "D":
         ANSELD |= port_ansel;
         TRISD |= port_tris;
         if(port_active_low == true)
